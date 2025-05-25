@@ -43,7 +43,7 @@ public class SudoBasicOperation {
         } else {
             System.out.println("División: No se puede dividir por cero");
         }
-       
+       //End of the program//
         scanner.close();
     }
     
