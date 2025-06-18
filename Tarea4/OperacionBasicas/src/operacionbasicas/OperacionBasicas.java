@@ -44,6 +44,7 @@ public class OperacionBasicas {
         } else {
             System.out.println("División: No se puede dividir por cero");
         }
+         scanner.close(); 
     }
     
 }
