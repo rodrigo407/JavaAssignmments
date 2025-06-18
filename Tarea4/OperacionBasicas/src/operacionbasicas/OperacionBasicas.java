@@ -16,13 +16,14 @@ public class OperacionBasicas {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
         
         // Solicitar los números al usuario
         System.out.print("Ingrese el primer número: ");  // Corregido: print en lugar de pint
         double numero1 = scanner.nextDouble();
         
-        System.out.print("Ingrese el segundo número: ");
+        
+        System.out.println("Ingrese el segundo valor");  // Corregido: print en lugar de pint
         double numero2 = scanner.nextDouble();
         
         // Realizar las operaciones
